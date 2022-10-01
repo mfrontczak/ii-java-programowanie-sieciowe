@@ -1,1 +1,1 @@
-# ii-java-programowanie-sieciowe
+# Java - Programowanie Sieciowe
