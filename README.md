@@ -25,3 +25,6 @@ JS L1 Jan Kowalski
 ## Laboratoria
   - [01 - Pliki i Strumienie](lab/01_streams.md)
   - [02 - Wątki](lab/02_threads.md)
+  - [03 - Klient-Serwer](lab/03_client_server.md)
+  - [04 - Połączenie z bazami danych JDBC](lab/04_jdbc.md)
+  - [05 - Interfejs RMI](lab/05_rmi.md)
