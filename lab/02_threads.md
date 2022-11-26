@@ -60,3 +60,4 @@ class Counter {
 ### W domu
 1. https://www.baeldung.com/java-runnable-callable
 2. https://www.baeldung.com/java-executor-service-tutorial
+3. "12.8. Procesy" z Java Podstawy wyd. XI, Cay S. Horstmann
