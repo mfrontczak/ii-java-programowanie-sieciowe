@@ -57,4 +57,6 @@ class Counter {
 8. Utwórz dwa wątki korzystające z jednego obiektu klasy `Counter`. Jeden wątek powinien wywoływać metodę `increment`, drugi `getValue`. 
 9. Zmodyfikuj zadanie 8. Dodaj obiekt klasy `Lock` do wątków w celu synchronizacji między wywołaniami metod.
 
-
+### W domu
+1. https://www.baeldung.com/java-runnable-callable
+2. https://www.baeldung.com/java-executor-service-tutorial
