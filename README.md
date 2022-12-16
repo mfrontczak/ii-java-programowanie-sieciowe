@@ -5,7 +5,7 @@ Forma zaliczenia: **Zal. z ocena**
 
 **Pod koniec zajęć należy przesłać na adres email michal.frontczak1📧up.krakow.pl rozwiązane zadania.**
 
-Szablon tematu wiadomości JS [grupa] [Imię] [Nazwisko]
+Szablon tematu wiadomości JPS [grupa] [Imię] [Nazwisko]
 
 Na przykład:
 JPS L1 Jan Kowalski
