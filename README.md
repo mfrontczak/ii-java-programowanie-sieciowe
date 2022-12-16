@@ -8,7 +8,7 @@ Forma zaliczenia: **Zal. z ocena**
 Szablon tematu wiadomości JS [grupa] [Imię] [Nazwisko]
 
 Na przykład:
-JS L1 Jan Kowalski
+JPS L1 Jan Kowalski
 
 ## Legenda
 
