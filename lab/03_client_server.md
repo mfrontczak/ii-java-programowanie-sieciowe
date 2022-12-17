@@ -66,10 +66,8 @@ public class HelloServer {
     public static void main(String[] args) {
         try(ServerSocket serverSocket = new ServerSocket(4444)) {
             System.out.println("Listening on port 4444");
-            try(
-            Socket clientSocket = serverSocket.accept();
-            PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true);
-            ) {
+            try(Socket clientSocket = serverSocket.accept();
+            	PrintWriter out = new PrintWriter(clientSocket.getOutputStream(), true)) {
                 out.println("Witaj świecie!");
                 Thread.sleep(1000);
                 out.println("Zapraszam Ponownie!");
