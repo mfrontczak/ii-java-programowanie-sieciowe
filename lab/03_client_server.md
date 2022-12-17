@@ -86,10 +86,9 @@ public class HelloServer {
 2. Napisz serwer echo-ohce - wiadomość wysłana z klienta powinna do niego wrócić w odwrotnej kolejności. np. hello -> olleh
 3. Napisz serwer chat - klient powinien móc wysyłac i odbierać wiadomości od innych połączonych klientów.  
 4. 🏠 Projekt do domu: Napisz micro serwer WWW
-
-       * Powinien akceptować połączenia z przeglądarki na porcie 8080.
-       * Obsługiwać metodę GET.
-       * Udostępnione pliki powinny znajdować się w katalogu www/
+	* Powinien akceptować połączenia z przeglądarki na porcie 8080.
+	* Obsługiwać metodę GET.
+	* Udostępnione pliki powinny znajdować się w katalogu www/
 
 **Pomocnicze linki:**
 * 📖 https://www.baeldung.com/a-guide-to-java-sockets
