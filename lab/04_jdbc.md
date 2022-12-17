@@ -51,6 +51,24 @@ try(Connection connection = DriverManager.getConnection("jdbc:sqlite:books.db");
 }
 ```
 
+Fragment `pom.xml`:
+```xml
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc -->
+        <dependency>
+            <groupId>org.xerial</groupId>
+            <artifactId>sqlite-jdbc</artifactId>
+            <version>3.40.0.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
+        <dependency>
+            <groupId>org.jsoup</groupId>
+            <artifactId>jsoup</artifactId>
+            <version>1.15.3</version>
+        </dependency>
+    </dependencies>
+```    
+
 **Przydatne linki:**
 * https://github.com/xerial/sqlite-jdbc
 * https://www.baeldung.com/java-executor-service-tutorial
