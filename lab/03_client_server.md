@@ -18,7 +18,8 @@ public class Main {
     }
 }
 ```
-Przykład klienta z użyciem `URLConnection`:
+
+Przykład klienta z użyciem `URLConnection` zapisującego stronę do pliku:
 ```java
 import java.io.*;
 import java.net.URL;
@@ -94,6 +95,7 @@ public class HelloServer {
 **Pomocnicze linki:**
 * 📖 https://www.baeldung.com/a-guide-to-java-sockets
 * 📖 https://www.baeldung.com/java-9-http-client
+* 📖 https://docs.oracle.com/javase/7/docs/api/java/net/InetAddress.html
 * 📖 https://docs.oracle.com/javase/7/docs/api/java/lang/StringBuilder.html
 * 📖 https://docs.oracle.com/javase/7/docs/api/java/net/Socket.html
 * 📖 https://docs.oracle.com/javase/8/docs/api/java/net/URLConnection.html
