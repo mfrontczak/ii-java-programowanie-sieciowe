@@ -60,3 +60,8 @@ public class URLConnectionTest {
 * 📖 https://docs.oracle.com/javase/8/docs/api/java/net/URLConnection.html
 
 ## Server
+
+### Zadania
+1. Napisz prosty serwer który wyśle połączonemu klientowi aktualną datę.
+2. Napisz serwer echo-ohce - wiadomość wysłana z klienta powinna do niego wrócić w odwrotnej kolejności. np. hello -> olleh
+3. Napisz serwer chat - klient powinien móc wysyłac i odbierać wiadomości od innych połączonych klientów.  
