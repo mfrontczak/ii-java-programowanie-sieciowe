@@ -84,8 +84,9 @@ public class HelloServer {
 ### Zadania
 1. Napisz prosty serwer który wyśle połączonemu klientowi aktualną datę.
 2. Napisz serwer echo-ohce - wiadomość wysłana z klienta powinna do niego wrócić w odwrotnej kolejności. np. hello -> olleh
-3. Napisz serwer chat - klient powinien móc wysyłac i odbierać wiadomości od innych połączonych klientów.  
-4. 🏠 Projekt do domu: Napisz micro serwer WWW
+3. Napisz serwer który pozwoli na połączenie się wielu klientów. Klient powinien być przywitany 10 razy (w 1s odstępach czasowych), a następnie połączenie powinno zostać zakończone.
+4. Napisz serwer czatu. Wiadomość wysłana przez jednego użytkownika powinna trafić do innych połączonych użytkowników.
+5. 🏠 Projekt do domu: Napisz micro serwer WWW
 	* Powinien akceptować połączenia z przeglądarki na porcie 8080.
 	* Obsługiwać metodę GET.
 	* Udostępnione pliki powinny znajdować się w katalogu www/
@@ -93,8 +94,9 @@ public class HelloServer {
 **Pomocnicze linki:**
 * 📖 https://www.baeldung.com/a-guide-to-java-sockets
 * 📖 https://www.baeldung.com/java-9-http-client
+* 📖 https://docs.oracle.com/javase/7/docs/api/java/lang/StringBuilder.html
 * 📖 https://docs.oracle.com/javase/7/docs/api/java/net/Socket.html
 * 📖 https://docs.oracle.com/javase/8/docs/api/java/net/URLConnection.html
-* 📖 (https://docs.oracle.com/javase/tutorial/networking/sockets/clientServer.html
+* 📖 https://docs.oracle.com/javase/tutorial/networking/sockets/clientServer.html
 * 📖 https://docs.oracle.com/javase/tutorial/networking/sockets/clientServer.html#later
  
