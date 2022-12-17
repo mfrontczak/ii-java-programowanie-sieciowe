@@ -92,7 +92,8 @@ public class HelloServer {
 	* Obsługiwać metodę GET.
 	* Udostępnione pliki powinny znajdować się w katalogu www/
 
-**Pomocnicze linki:**
+**Przydatne linki:**
+* 📖 https://jsoup.org/
 * 📖 https://www.baeldung.com/a-guide-to-java-sockets
 * 📖 https://www.baeldung.com/java-9-http-client
 * 📖 https://docs.oracle.com/javase/7/docs/api/java/net/InetAddress.html
