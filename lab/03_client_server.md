@@ -93,6 +93,7 @@ public class HelloServer {
 	* Udostępnione pliki powinny znajdować się w katalogu www/
 
 **Przydatne linki:**
+* 📖 https://www.rfc-editor.org/rfc/rfc2616 - Opis HTTP/1.1 (Po Angielsku)
 * 📖 https://jsoup.org/
 * 📖 https://www.baeldung.com/a-guide-to-java-sockets
 * 📖 https://www.baeldung.com/java-9-http-client
