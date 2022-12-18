@@ -7,7 +7,7 @@ Nasz mały Crawler powinien definiować następujące klasy pomocnicze:
 * `CrawlerThread` - klasę służącą do wykonywania operacji parsowania aktualnie przeglądanej strony.
 * `DBConn` - klasę do obsługi bazy danych (SQLite), powinna udostępniać następujące metody: `connect`, `createTables`, `insertRow`, `dropTables`, `disconnect`. 
 
-Crawler powinien wyszukiwać wszystkie linki na stronie, zapisywać znalezione linki do bazy danych w celu ich późniejszego odwiedzenia. Jeżeli link już znajduje się w bazie danych powinna zostać zwiększona wartość w kolumnie `seen`.
+**Crawler powinien wyszukiwać wszystkie linki na stronie, zapisywać znalezione linki do bazy danych w celu ich późniejszego odwiedzenia. Jeżeli link już znajduje się w bazie danych powinna zostać zwiększona wartość w kolumnie `seen`.**
 
 Crawler powinien korzystać z ograniczonej liczby wątków, w celu ograniczenia liczby wątków użyj klasę `ExecutorService`.
 
