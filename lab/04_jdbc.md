@@ -51,8 +51,7 @@ try(Connection connection = DriverManager.getConnection("jdbc:sqlite:books.db");
 }
 ```
 
-Do projektu należy dodać wsparcie dla Frameworku Maven. A następnie dodać do pliku `pom.xml` poniższy fragment.
-Fragment `pom.xml`:
+Do projektu należy dodać wsparcie dla Frameworku Maven. A następnie dodać do pliku `pom.xml` poniższy fragment pod tagiem `</properties>`.
 ```xml
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.xerial/sqlite-jdbc -->
