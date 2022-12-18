@@ -51,6 +51,7 @@ try(Connection connection = DriverManager.getConnection("jdbc:sqlite:books.db");
 }
 ```
 
+Do projektu należy dodać wsparcie dla Frameworku Maven. A następnie dodać do pliku `pom.xml` poniższy fragment.
 Fragment `pom.xml`:
 ```xml
     <dependencies>
@@ -68,6 +69,41 @@ Fragment `pom.xml`:
         </dependency>
     </dependencies>
 ```    
+
+Przykład Parsowania XML przy pomocy biblioteki JSOUP.
+```java
+import java.io.IOException;
+import java.net.URL;
+import java.net.URLConnection;
+import java.util.Scanner;
+
+import org.jsoup.Jsoup;
+import org.jsoup.nodes.Document;
+import org.jsoup.nodes.Element;
+import org.jsoup.parser.Parser;
+import org.jsoup.select.Elements;
+
+public class BankierReaderClient {
+    public static void main(String[] args) throws IOException {
+        String wiadomosciUrl = "https://www.bankier.pl/rss/wiadomosci.xml";
+        URL url = new URL(wiadomosciUrl);
+        URLConnection conn = url.openConnection();
+        conn.connect();
+        Scanner in = new Scanner(conn.getInputStream());
+        StringBuilder sb = new StringBuilder();
+        while(in.hasNextLine()) {
+            sb.append(in.nextLine());
+        }
+        Document doc = Jsoup.parse(sb.toString(),
+                wiadomosciUrl, Parser.xmlParser());
+        Elements items = doc.getElementsByTag("item");
+        for(Element el : items) {
+            String content = el.getElementsByTag("title").first().text();
+            System.out.println(content);
+        }
+    }
+}
+```
 
 **Przydatne linki:**
 * https://github.com/xerial/sqlite-jdbc
